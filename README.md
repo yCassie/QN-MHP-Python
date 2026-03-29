@@ -1,5 +1,6 @@
 # QN-MHP Software README
-# More detailed information can be found in “QN-MHP Python Work Instruction.pdf.”
+
+## More detailed information can be found in “QN-MHP Python Work Instruction.pdf.”
 
 
 ## 1. Overview
@@ -38,7 +39,7 @@ The software follows this high-level flow:
 
 ## 4. Main user workflow
 ### Step 1 - Define tasks
-The task-definition GUI in `gui_general.py` provides up to five tasks. For each task you select:
+The task-definition GUI in `gui_general.py` provides up to five tasks (current version supports up to 2 tasks running at the same time). For each task you select:
 - the task number in row 1,
 - the BE name in odd-numbered columns,
 - the execution order in even-numbered columns.
